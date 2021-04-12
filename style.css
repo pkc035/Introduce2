@@ -1,0 +1,40 @@
+#nav{
+  text-align: center;
+}
+#nav-span{
+}
+.grid{
+  margin-right: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+html {
+  background: url(bg.jpg) repeat-x center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: movebg 300s linear infinite ;
+}
+@keyframes movebg {
+    0%{background-position: 2440px center;}
+    100%{background-position:  -2440px center;}
+}
+
+li{
+  display: inline-block;
+}
+ul{
+  list-style: none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+p{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
